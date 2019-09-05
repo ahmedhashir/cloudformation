@@ -6,6 +6,7 @@ Parameters:
     Description: "Alias for KMS Key"
     Type: String
     Default: "Hash"
+
 Resources:
   KMSKey:
     Type: AWS::KMS::Key
