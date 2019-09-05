@@ -17,6 +17,6 @@ tests:
     template_file: KMSKeyTemplate.yaml
     parameter_input: KMSKeyTemplateParameters.json
   # The following test will test in both all 4 region defined in the global region section using sample-cloudformation-input.json as inputs
-  scenario-all-regions:
-    parameter_input: KMSKeyTemplateParameters.json
-    template_file: KMSKeyTemplate.yaml
+  # scenario-all-regions:
+  #   parameter_input: KMSKeyTemplateParameters.json
+  #   template_file: KMSKeyTemplate.yaml
