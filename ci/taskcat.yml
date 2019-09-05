@@ -1,7 +1,7 @@
 global:
   owner: hashirahmed@hotmail.com
-  qsname: cloudformation <- Must match the root directory of project (usually the name of git repo)
-  #s3bucket: projectx-templates <- (Optional) Only needed if you want to use a specific bucket
+  qsname: cloudformation # <- Must match the root directory of project (usually the name of git repo)
+  s3bucket: cicd-taskcat-artifactbucket-zlkdi2g1121v #projectx-templates <- (Optional) Only needed if you want to use a specific bucket
   regions:
     - us-east-1
     - us-east-2
